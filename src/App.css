@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+}
+
+.cont {
+  margin-top: 30px;
+}
+
+.h1 {
+  color: #051c33;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Lobster", "Josefin Sans", Helvetica, Arial, sans-serif;
+}
+
+input {
+  width: 450px;
+  outline: none;
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: #edeff0;
+  border: 3px solid #d7dbdf;
+  border-right: none;
+  border-radius: 0.35em 0 0 0.35em;
+  font-size: 1em;
+}
+
+.btn-group {
+  margin: 20px 0;
+}
+
+.btn-group button {
+  display: block;
+  width: 100px;
+  height: 26px;
+  background: #051c33;
+  border-radius: 3px;
+  padding: 5px;
+  color: #fff;
+  margin: 0 16px;
+  line-height: 15px;
+}
+
+.h2 {
+  color: #051c33;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+img {
+  width: 300px;
+  height: 150px;
+  margin: 10px 20px 10px 0;
+}
+
+.images {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.pagination {
+  list-style: none;
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.pagination .page-num {
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+.pagination .page-num:hover {
+  background-color: #5AB1BB;
+  color: #fff;
+}
+
+.pagination .active {
+  background-color: #5AB1BB;
+}
